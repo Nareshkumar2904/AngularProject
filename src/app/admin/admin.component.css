@@ -1,0 +1,43 @@
+.navbar {
+    background-image: linear-gradient(to right, rgba(117, 96, 175, 0.644), rgba(58, 35, 35, 0.966), rgba(198, 65, 224, 0.644));
+}
+
+.navbar-toggler-icon {
+    width: 35px;
+}
+
+.offcanvas {
+    width: 300px;
+    margin-top: 57px;
+}
+
+.btn-close {
+    width: 550px;
+    margin-top: 6px;
+    margin-right: 10px;
+    align-content: end;
+}
+
+li {
+    list-style-type: none;
+    font-size: 23px;
+    margin: 25px;
+    padding: 12px;
+    text-align: start;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+i {
+    margin-right: 12px;
+}
+
+.content-box {
+    height: 715px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,17 @@
+.login {
+    width: 425px;
+    height: min-content;
+    padding: 20px;
+    border: 1px solid rgb(109, 83, 83);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+form {
+    background: rgb(238, 245, 250);
+}
+
+.container-fluid {
+    background-image: url('123.jpg.jpg');
+}
