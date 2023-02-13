@@ -1,35 +1,35 @@
-<div class="container-fluid">
-    <div class="row ">
-        <div class="col-12">
-            <nav class="navbar pos-fixed w-100 p-2">
+<div class=" container-fluid">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar p-2 ">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
-                        aria-controls="offcanvasScrolling">
+                    <div class="navbar-toggler-icon col-2" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
                         <div class="offcanvas offcanvas-start" id="offcanvasScrolling"
                             aria-labelledby="offcanvasScrollingLabel">
                             <div class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#my-offcanvas"
                                 aria-label="Close"></div>
-                            <div>
-                                <li><a routerLink="./dashboard"><i class="fa fa-dashboard"
+                            <div class="row">
+                                <li><a routerLink="./dashboard" routerLinkActive="active"><i class="fa fa-dashboard"
                                             aria-hidden="true"></i>Dashboard</a></li>
-                                <li><a routerLink="./home"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-                                <li><a routerLink="./about"><i class="fa fa-object-group"
+                                <li><a routerLink="./home" routerLinkActive="active"><i class="fa fa-home"
+                                            aria-hidden="true"></i>Home</a></li>
+                                <li><a routerLink="./about" routerLinkActive="active"><i class="fa fa-object-group"
                                             aria-hidden="true"></i>About</a></li>
-                                <li><a routerLink="./design"><i class="fa fa-drafting-compass"
+                                <li><a routerLink="./design" routerLinkActive="active"><i class="fa fa-drafting-compass"
                                             aria-hidden="true"></i>Design</a></li>
-                                <li><a routerLink="./gallery"><i class="fa fa-image" aria-hidden="true"></i>Gallery</a>
-                                </li>
-                                <li><a routerLink="./service"><i class="fa fa-database"
+                                <li><a routerLink="./gallery" routerLinkActive="active"><i class="fa fa-image"
+                                            aria-hidden="true"></i>Gallery</a></li>
+                                <li><a routerLink="./service" routerLinkActive="active"><i class="fa fa-database"
                                             aria-hidden="true"></i>Service</a></li>
-                                <li><a routerLink="./contact"><i class="fa fa-mobile" aria-hidden="true"></i>Contact</a>
-                                </li>
+                                <li><a routerLink="./contact" routerLinkActive="active"><i class="fa fa-mobile"
+                                            aria-hidden="true"></i>Contact</a></li>
                             </div>
                         </div>
                     </div>
                 </button>
-
                 <div class="col-8">
                     <marquee class="text-white fs-5">Welcome to Angular Application</marquee>
                 </div>
@@ -39,14 +39,16 @@
                 </form>
             </nav>
         </div>
-        <div class="row ">
-            <div class="col-3 rounded border border-primary content-box g-2">
-                <nav class="navbar bg-success rounded-top text-white">Method</nav>
-            </div>
-            <div class="col-8 rounded border border-success content-box g-2">
-                <nav class="navbar bg-success rounded-top text-white">Content</nav>
-            </div>
-        <div class="row">
+    </div>
+    <div class="row">
         <router-outlet></router-outlet>
+    </div>
+</div>
+<div class="row g-0">
+    <div class="col-6 col-md-3 border border-primary cnt gy-2 rounded">
+        <nav class="navbar-container bg-primary text-white fs-4 ">Menu</nav>
+    </div>
+    <div class="col-sm-6 col-md-8 border border-primary cnt gy-2 rounded ">
+        <nav class="navbar-container bg-primary text-white fs-4 ">Title</nav>
     </div>
 </div>

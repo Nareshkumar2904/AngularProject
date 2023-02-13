@@ -1,1 +1,15 @@
-<p>home works!</p>
+<div class="container-fluid">
+    <div class="row mt-1 ">
+        <div class="col-3 me-2 rounded border border-primary cnt">
+            <nav class="navbar bg-primary rounded-top text-white fs-6 ">Menu</nav>
+            <li><a routerLink="./Content" routerLinkActive="active">Content</a></li>
+            <li><a routerLink="./folder" routerLinkActive="active">Folder</a></li>
+        </div>
+        <div class="col rounded offset-md-0 border border-primary cnt">
+            <nav class="navbar bg-primary rounded-top text-white fs-6 ">Item</nav>
+        </div>
+    </div>
+    <div>
+        <router-outlet></router-outlet>
+    </div>
+</div>

@@ -7,12 +7,12 @@
 }
 
 .offcanvas {
-    width: 300px;
+    width: 250px;
     margin-top: 57px;
 }
 
 .btn-close {
-    width: 550px;
+    width: 450px;
     margin-top: 6px;
     margin-right: 10px;
     align-content: end;
@@ -26,18 +26,31 @@ li {
     text-align: start;
 }
 
-a {
-    text-decoration: none;
-    margin: 10px;
-}
-
 i {
     margin-right: 12px;
 }
 
-.content-box {
-    height: 715px;
-    margin-left: 10px;
-    margin-right: 10px;
+.cntBox {
+    position: fixed;
+    background-image: linear-gradient(to right, rgb(202, 132, 132), rgb(183, 183, 199), rgb(136, 206, 136));
 }
 
+a {
+    text-decoration: none;
+}
+
+.cnt {
+    height: 715px;
+    margin-left: 3px;
+}
+
+.col-md-3 {
+    margin-left: 10px;
+    text-align: left;
+    background-color: rgb(234, 240, 243);
+}
+
+.col-md-8 {
+    background-color: rgb(234, 240, 243);
+    width: 1232px;
+}

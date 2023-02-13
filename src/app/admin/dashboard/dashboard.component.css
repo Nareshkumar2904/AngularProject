@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+}
+
+.cnt {
+    height: 715px;
+}
+
+.col-md-3 {
+    margin-left: 10px;
+    text-align: left;
+    background-color: rgb(234, 240, 243);
+}
+
+.col-md-8 {
+    background-color: rgb(234, 240, 243);
+    width: 1232px;
+}
+li {
+    list-style-type: none;
+    font-size: 23px;
+    margin: 25px;
+    padding: 12px;
+    text-align: start;
+}

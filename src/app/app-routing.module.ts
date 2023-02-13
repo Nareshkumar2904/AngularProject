@@ -27,30 +27,6 @@ const routes: Routes = [
     path: 'admin',
     loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule)
   },
-  // {
-  //   path: 'dashboard',
-  //   loadChildren: () => import('./admin/dashboard/dashboard.module').then(m => m.DashboardModule)
-  // },
-  // {
-  //   path: 'home',
-  //   loadChildren: () => import('./admin/home/home.module').then(m => m.HomeModule)
-  // }, {
-  //   path: 'design',
-  //   loadChildren: () => import('./admin/design/design.module').then(m => m.DesignModule)
-  // },
-  // {
-  //   path: 'gallery',
-  //   loadChildren: () => import('./admin/gallery/gallery.module').then(m => m.GalleryModule)
-  // },
-  // {
-  //   path: 'service',
-  //   loadChildren: () => import('./admin/service/service.module').then(m => m.ServiceModule)
-  // },
-  // {
-  //   path: 'contact',
-  //   loadChildren: () => import('./admin/contact/contact.module').then(m => m.ContactModule)
-  // },
-
   {
     path: '**',
     component: PageNotFoundComponent
