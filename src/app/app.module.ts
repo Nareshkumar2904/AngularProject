@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginPageComponent } from './component/login-page/login-page.component';
 import { ResetPasswordComponent } from './component/reset-password/reset-password.component';
-import { RegistrationComponent } from './component/reset-password/registration/registration.component';
+import { RegistrationComponent } from './component/registration/registration.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 import { RouterModule } from '@angular/router';
 import { AdminModule } from './admin/admin.module';

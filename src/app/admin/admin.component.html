@@ -1,54 +1,55 @@
-<div class=" container-fluid">
-    <div class="row">
-        <div class="col">
-            <nav class="navbar p-2 ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="navbar-toggler-icon col-2" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
-                        <div class="offcanvas offcanvas-start" id="offcanvasScrolling"
-                            aria-labelledby="offcanvasScrollingLabel">
-                            <div class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#my-offcanvas"
-                                aria-label="Close"></div>
-                            <div class="row">
-                                <li><a routerLink="./dashboard" routerLinkActive="active"><i class="fa fa-dashboard"
-                                            aria-hidden="true"></i>Dashboard</a></li>
-                                <li><a routerLink="./home" routerLinkActive="active"><i class="fa fa-home"
-                                            aria-hidden="true"></i>Home</a></li>
-                                <li><a routerLink="./about" routerLinkActive="active"><i class="fa fa-object-group"
-                                            aria-hidden="true"></i>About</a></li>
-                                <li><a routerLink="./design" routerLinkActive="active"><i class="fa fa-drafting-compass"
-                                            aria-hidden="true"></i>Design</a></li>
-                                <li><a routerLink="./gallery" routerLinkActive="active"><i class="fa fa-image"
-                                            aria-hidden="true"></i>Gallery</a></li>
-                                <li><a routerLink="./service" routerLinkActive="active"><i class="fa fa-database"
-                                            aria-hidden="true"></i>Service</a></li>
-                                <li><a routerLink="./contact" routerLinkActive="active"><i class="fa fa-mobile"
-                                            aria-hidden="true"></i>Contact</a></li>
-                            </div>
-                        </div>
+<nav class="navbar">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-toggler-icon col-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+                aria-controls="offcanvasScrolling">
+                <div class="offcanvas offcanvas-start" id="offcanvasScrolling"
+                    aria-labelledby="offcanvasScrollingLabel">
+                    <div class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#my-offcanvas"
+                        aria-label="Close"></div>
+                    <div class="row">
+                        <li><a routerLink="./dashboard" routerLinkActive="active"><i class="fa fa-dashboard"
+                                    aria-hidden="true"></i>Dashboard</a></li>
+                        <li><a routerLink="./home" routerLinkActive="active"><i class="fa fa-home"
+                                    aria-hidden="true"></i>Home</a></li>
+                        <li><a routerLink="./about" routerLinkActive="active"><i class="fa fa-object-group"
+                                    aria-hidden="true"></i>About</a></li>
+                        <li><a routerLink="./design" routerLinkActive="active"><i class="fa fa-drafting-compass"
+                                    aria-hidden="true"></i>Design</a></li>
+                        <li><a routerLink="./gallery" routerLinkActive="active"><i class="fa fa-image"
+                                    aria-hidden="true"></i>Gallery</a></li>
+                        <li><a routerLink="./service" routerLinkActive="active"><i class="fa fa-database"
+                                    aria-hidden="true"></i>Service</a></li>
+                        <li><a routerLink="./contact" routerLinkActive="active"><i class="fa fa-mobile"
+                                    aria-hidden="true"></i>Contact</a></li>
                     </div>
-                </button>
-                <div class="col-8">
-                    <marquee class="text-white fs-5">Welcome to Angular Application</marquee>
                 </div>
-                <form class="d-flex col-2" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-warning me-3" type="submit">Search</button>
-                </form>
-            </nav>
+            </div>
+        </button>
+        <div class="col-8 text-center">
+            <marquee class="text-white">Welcome to Angular Application</marquee>
         </div>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+        </form>
     </div>
-    <div class="row">
-        <router-outlet></router-outlet>
-    </div>
+</nav>
+<div class="row">
+    <router-outlet></router-outlet>
 </div>
-<div class="row g-0">
-    <div class="col-6 col-md-3 border border-primary cnt gy-2 rounded">
-        <nav class="navbar-container bg-primary text-white fs-4 ">Menu</nav>
+<div class="container-fluid text-center">
+    <div class="row g-2">
+        <div class="col-3">
+          <div class="border border-primary rounded mt-2 bg-light">
+        menu
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="border border-primary rounded mt-2 bg-light">Custom column padding</div>
+        </div>
+      <div class="w-100 d-none d-md-block"></div>
     </div>
-    <div class="col-sm-6 col-md-8 border border-primary cnt gy-2 rounded ">
-        <nav class="navbar-container bg-primary text-white fs-4 ">Title</nav>
-    </div>
-</div>
+  </div>
