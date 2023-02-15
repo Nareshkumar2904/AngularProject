@@ -1,15 +1,16 @@
 <div class="container-fluid">
-    <div class="row mt-1 ">
-        <div class="col-3 me-2 rounded border border-primary cnt">
-            <nav class="navbar bg-primary rounded-top text-white fs-6 ">Menu</nav>
-            <li><a routerLink="./input" routerLinkActive="active">Input</a></li>
-            <li><a routerLink="./output" routerLinkActive="active">output</a></li>
+    <div class="row g-2">
+        <div class="col-3">
+            <div class="border border-primary rounded mt-2 bg-light cntBox">
+                <nav class="navbar-container bg-primary text-white fs-5">Menu</nav>
+                <li><a routerLink="./input" routerLinkActive="active">Input</a></li>
+                <li><a routerLink="./output" routerLinkActive="active">Output</a></li>
+            </div>
         </div>
-        <div class="col rounded offset-md-0 border border-primary cnt">
-            <nav class="navbar bg-primary rounded-top text-white fs-6 ">Item</nav>
+        <div class="col-9">
+            <div class="border border-success rounded mt-2 bg-light cntBox">
+                <nav class="navbar-container bg-primary text-white fs-5">Title</nav>
+                <router-outlet></router-outlet>
+            </div>
         </div>
     </div>
-    <div>
-        <router-outlet></router-outlet>
-    </div>
-</div>
