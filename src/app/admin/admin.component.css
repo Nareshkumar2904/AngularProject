@@ -4,9 +4,10 @@
 
 .navbar-toggler-icon {
     width: 20px;
-    color: blanchedalmond;
+    color: rgb(188, 143, 77);
 }
-.navbar-toggler{
+
+.navbar-toggler {
     margin-left: 15px;
     color: rgb(64, 4, 4);
     background-color: rgb(116, 178, 101);
@@ -43,6 +44,6 @@ a {
     text-decoration: none;
 }
 
-.bg-light{
+.bg-light {
     height: 553px;
 }
