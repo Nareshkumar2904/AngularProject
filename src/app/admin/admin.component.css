@@ -4,6 +4,12 @@
 
 .navbar-toggler-icon {
     width: 20px;
+    color: blanchedalmond;
+}
+.navbar-toggler{
+    margin-left: 15px;
+    color: rgb(64, 4, 4);
+    background-color: rgb(116, 178, 101);
 }
 
 .offcanvas {
@@ -35,4 +41,8 @@ i {
 
 a {
     text-decoration: none;
+}
+
+.bg-light{
+    height: 553px;
 }

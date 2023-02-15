@@ -1,7 +1,9 @@
 .d-flex {
-    background-image: linear-gradient(to right, rgb(245, 234, 234), rgb(236, 236, 245), rgb(238, 228, 228));
+    background-image: linear-gradient(to right, rgb(226, 212, 212), rgb(121, 126, 214), rgba(255, 255, 255, 0.571));
 }
 
 .err {
-    font-size: 180px;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
