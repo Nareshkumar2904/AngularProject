@@ -1,15 +1,16 @@
 <div class="row g-1">
     <div class="col-3">
-        <div class="border border-warning rounded mt-2 bg-light cntBox">
-            <nav class="navbar-container bg-warning text-white fs-5">Menu</nav>
+        <div class="border border-primary rounded mt-2 bg-light cntBox">
+            <nav class="navbar-container bg-primary text-white fs-5">Menu</nav>
             <li><a routerLink="./card" routerLinkActive="active">Card</a></li>
             <li><a routerLink="./image" routerLinkActive="active">Image</a></li>
         </div>
     </div>
     <div class="col-9">
-        <div class="border border-warning rounded mt-2 bg-light cntBox">
-            <nav class="navbar-container bg-warning text-white fs-5">Title</nav>
-            <router-outlet></router-outlet>
+        <div class="border border-primary rounded mt-2 bg-light cntBox">
+            <nav class="navbar-container bg-primary text-white fs-5">
+                <router-outlet></router-outlet>
+            </nav>
         </div>
     </div>
 </div>
